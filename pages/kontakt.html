@@ -13,6 +13,38 @@
             <li><a href="presentation.html">Presentation</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
-        <p>Testsida</p>
+        <h2>Kontakta mig</h2>
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+        <fieldset>
+         <legend>Fråga</legend>
+         <p>Ärendetyp:
+             <select name="Arendetyp" size="1">
+                 <option value="Fraga">Fråga</option>
+                 <option>Tips</option>
+             </select>
+             <br />
+             Rubrik: <input type="text" name="Rubrik"/>
+             <p>Vad vill du? 
+             <br />
+             <textarea name="Text" rows="3" cols="30" placeholder="Skriv din fråga eller tips här"></textarea>
+        </fieldset>
+        <fieldset>
+         <legend>Information om dig</legend>
+             <p>Hur vill du bli kontaktad?
+             <br />
+             <label>
+                 <input type="radio" name="Kontakt" value="Telefon"/>
+                 Kontakta mig via telefon
+             </label>
+             <br />
+             <label>
+                 <input type="radio" name="Kontakt" value="Mail"/>
+                 Kontakta mig via e-mail
+            </label>
+             <p>
+             <input type="submit" value="Skicka"/>
+             <input type="Reset" value="Återställ"/>
+        </fieldset>
+        </form>
     </body>
 </html>
