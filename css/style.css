@@ -26,44 +26,73 @@
 	Mörkast: #375000
 	
 */
-a:link{
+
+a:link {
 	color: #375000;
 }
 
-a:visited{
+a:visited {
 	color: #75A311;
 }
 
-a:focus{
+a:focus {
 	color: #A8C764;
 }
 
-a:hover{
+a:hover {
 	color: #D6EF9F;
 }
 
-a:active{
+a:active {
 	color: #375000;
 }
 
-a:link{
+a:link {
 	color: #375000;
 }
 
-a:visited{
-	color: #75A311;
+#navigation {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
 }
 
-a:focus{
-	color: #A8C764;
+#navigation li {
+	list-style: none;
+	margin: 0px;
+	margin-bottom: 2px;
+	padding: 0px;
+	background-color: #D6EF9F;
+	height: 30px;
+	width: 96%;
 }
 
-a:hover{
+#navigation li:hover {
+	background-color: #A8C764;
+	width: 100%;
+}
+
+#navigation a {
+	display: block;
+	padding: 8px 12px;
+	color: #597814;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navigation a:hover {
+	background-color: #375000;
 	color: #D6EF9F;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
 }
 
-a:active{
-	color: #375000;
+#navigation .active {
+	background-color: #597814;
+}
+
+#navigation a.active {
+	color: #D6EF9F;
 }
 
 body {
