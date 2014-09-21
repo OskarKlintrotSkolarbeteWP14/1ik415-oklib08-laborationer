@@ -1,0 +1,34 @@
+#container {
+	border: solid;
+	width: 1000px;
+ 	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+#header {
+	border: solid;
+	padding: 10px;
+}
+
+#navigation {
+	border: solid;
+	padding: 10px;
+	width: 200px;
+	float: left;
+}
+
+#content {
+	border: solid;
+	padding: 10px;
+	width: 800;
+	margin-left: 225px;
+}
+
+#article {
+	border: solid;
+}
+
+#footer {
+	border: solid;
+	padding: 10px;
+}

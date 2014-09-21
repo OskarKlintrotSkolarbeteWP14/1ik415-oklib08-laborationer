@@ -3,35 +3,53 @@
     <head>
         <meta charset="utf-8" />
         <title>Oskars kursblogg</title>
+        <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
     </head>
     <body>
-        <h1><img src="pics/logo.png" alt="Logga" height="60" id="logga" />Oskars blogg för webbteknisk introduktion</h1>
-        <p>Välkommen till min blogg!</p>
-        <ul>
-            <li><a href="index.html">Start</a></li>
-            <li><a href="pages/laborationer.html">Laborationer</a></li>
-            <li><a href="pages/presentation.html">Presentation</a></li>
-            <li><a href="pages/kontakt.html">Kontakt</a></li>
-        </ul>
-    <!-- 3:e blogginlägget -->
-        <h3 id="1.7">Big Buck Bunny</h3>
-        <p>
-         <video controls poster="pics/bbb_preview.jpg" width="700" preload="none">
-             <source src="videos/trailer_1080p.mp4" type="video/mp4" />
-             <source src="videos/trailer_1080p.webm" type="video/webm" />
-             <a href="videos/trailer_1080p.mp4">trailer_1080p.mp4</a>
-         </video>
-        <p>En trailer till kortfilmen <a href="http://www.bigbuckbunny.org/">Big Buck Bunny</a>
-        <p>Skrivet av Oskar 2014-09-09
-    <!-- 2:a blogginlägget -->
-        <h3 id="1.6">Kalmar Klätterklubb is the shit!</h3>
-        <img src="pics/kalmarkk.svg" alt="Gammalt förslag för logga till Kalmar KK" width="700" />
-        <p>Ett förslag till en logga till Kalmar Klätterklubb.</p>
-        <p>Skrivet av Oskar 2014-09-09</p>
-    <!-- 1:a blogginlägget -->
-        <h3>Hello world!</h3>
-        <p>Den här bloggen kommer att handla om de laborationer jag gör i kursen webbteknisk introduktion.</p>
-        <p>Skrivet av Oskar 2014-09-07</p>
-        <p>Ansvarig för publicerat material är ingen.</p>
+        <div id="container">
+            <div id="header">
+                <h1><img src="pics/logo.png" alt="Logga" height="60" id="logga" />Oskars blogg för webbteknisk introduktion</h1>
+                <p>Välkommen till min blogg!</p>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="pages/laborationer.html">Laborationer</a></li>
+                    <li><a href="pages/presentation.html">Presentation</a></li>
+                    <li><a href="pages/kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <div id="article">
+                <!-- 3:e blogginlägget -->
+                    <h3 id="1.7">Big Buck Bunny</h3>
+                    <p>
+                     <video controls poster="pics/bbb_preview.jpg" width="700" preload="none">
+                         <source src="videos/trailer_1080p.mp4" type="video/mp4" />
+                         <source src="videos/trailer_1080p.webm" type="video/webm" />
+                         <a href="videos/trailer_1080p.mp4">trailer_1080p.mp4</a>
+                     </video>
+                    <p>En trailer till kortfilmen <a href="http://www.bigbuckbunny.org/">Big Buck Bunny</a>
+                    <p>Skrivet av Oskar 2014-09-09
+                </div>
+                <div id="article">
+                <!-- 2:a blogginlägget -->
+                    <h3 id="1.6">Kalmar Klätterklubb is the shit!</h3>
+                    <img src="pics/kalmarkk.svg" alt="Gammalt förslag för logga till Kalmar KK" width="700" />
+                    <p>Ett förslag till en logga till Kalmar Klätterklubb.</p>
+                    <p>Skrivet av Oskar 2014-09-09</p>
+                </div>
+                <div id="article">
+                <!-- 1:a blogginlägget -->
+                    <h3>Hello world!</h3>
+                    <p>Den här bloggen kommer att handla om de laborationer jag gör i kursen webbteknisk introduktion.</p>
+                    <p>Skrivet av Oskar 2014-09-07</p>
+                </div>
+            </div>
+            <div id="footer">
+                <p>Ansvarig för publicerat material är ingen.</p>
+            </div>
+        </div>
     </body>
 </html>
