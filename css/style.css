@@ -178,7 +178,11 @@ h4 {
 p, td, dd, dt, il, li, tr, legend {
 	font-family: verdana, sans-serif;
 	font-size: 0.9em;
-	line-height: 1.5em;
+	line-height: 1.7em;
+}
+
+p {
+	margin-bottom: 0.em;
 }
 
 #header p {
