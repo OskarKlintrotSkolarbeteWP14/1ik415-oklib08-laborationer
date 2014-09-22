@@ -188,6 +188,18 @@ p {
 	margin-bottom: 0.8em;
 }
 
+dt {
+	font-size: 1.05em;
+}
+
+dd {
+	margin-left: 3em;
+	margin-bottom: 1em;
+	width: 75%;
+	line-height: 2em;
+	text-align: justify;
+}
+
 #header p {
 	font-size: 1.3em;
 	font-family: monospace, sans-serif;
