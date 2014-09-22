@@ -158,10 +158,12 @@ h1 {
 
 h2 {
 	font-size: 1.9em;
+	margin-bottom: 0.3em;
 }
 
 h3 {
 	font-size: 1.4em;
+	margin-bottom: 0.3em;
 }
 
 h3.article_headline {
@@ -173,6 +175,7 @@ h3.article_headline {
 
 h4 {
 	font-size: 1.4em;
+	margin-bottom: 0.3em;
 }
 
 p, td, dd, dt, il, li, tr, legend {
@@ -182,7 +185,7 @@ p, td, dd, dt, il, li, tr, legend {
 }
 
 p {
-	margin-bottom: 0.em;
+	margin-bottom: 0.8em;
 }
 
 #header p {
