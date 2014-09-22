@@ -87,6 +87,10 @@
 	line-height: 1em;
 }
 
+#navigation li.active:hover {
+	width: 96%;
+}
+
 #navigation a {
 	display: block;
 	padding: 13px 12px;
@@ -100,6 +104,9 @@
 	color: #D6EF9F;
 	border-top-right-radius: 7px;
 	border-bottom-right-radius: 7px;
+	padding-left: 45px;
+	background-image: url(pics/arrow.svg);
+	background-repeat: no-repeat;
 }
 
 #navigation .active {
@@ -108,6 +115,15 @@
 
 #navigation a.active {
 	color: #D6EF9F;
+}
+
+#navigation a.active:hover {
+	color: #D6EF9F;
+	background-color: #597814;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding: 13px 12px;
+	background-image: none;
 }
 
 .article {
