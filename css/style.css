@@ -200,6 +200,15 @@ dd {
 	text-align: justify;
 }
 
+dd ul li {
+	list-style-type: circle;
+}
+
+dd ol li {
+	margin-left: 2em;
+	list-style-type: lower-roman;
+}
+
 #header p {
 	font-size: 1.3em;
 	font-family: monospace, sans-serif;
