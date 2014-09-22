@@ -214,3 +214,7 @@ dd ol li {
 	font-family: monospace, sans-serif;
 	text-align: right;
 }
+
+#footer p {
+	margin: 0px;
+}
