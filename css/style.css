@@ -204,16 +204,24 @@ h2 {
 }
 
 h3 {
-	font-size: 1.4em;
+	font-size: 1.8em;
 	margin-bottom: 0.3em;
 }
 
 h3.article_headline {
 	border-bottom: 1px solid;
 	padding-bottom: 3px;
-	width: 98%;
+	padding-left: 50px;
+	vertical-align: bottom;
+	width: 91%;
+	padding-top: 18px;
 	margin: 5px;
+    background-image: url('pics/logo.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
 }
+
+
 
 h4 {
 	font-size: 1.4em;
@@ -231,6 +239,4 @@ p, td, dd, dt, li, tr, legend {
 p {
 	margin-bottom: 0.8em;
 }
-
-
 
