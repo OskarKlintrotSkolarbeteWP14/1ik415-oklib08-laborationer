@@ -308,3 +308,40 @@ p {
 	margin-bottom: 0.8em;
 }
 
+table {
+	background-color: #D6EF9F;
+}
+
+td {
+	border: solid thin;
+	padding-right: 10px;
+	padding-left: 3px;
+}
+
+tfoot {
+	font-style: italic;
+}
+
+th {
+	border: solid thin;
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 3px;
+}
+
+thead {
+	background-color: #75A311;
+	border: solid thin;
+}
+
+thead:hover {
+	background-color: white;
+}
+
+tr {
+	border: solid thin
+}
+
+tr:hover td:not(.avoid) {
+	background-color: white;
+}
