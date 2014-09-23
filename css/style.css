@@ -134,6 +134,19 @@
 
 .article p {
 	padding-left: 10px;
+	text-align: justify;
+	width: 97%;
+}
+
+p.article_end {
+	width: 97%;
+	text-align: right;
+	font-style: italic;
+}
+
+.border {
+	border: solid 5px;
+    border-color: white;
 }
 
 .labb {
@@ -146,6 +159,13 @@
 
 .labb li {
 	list-style-type: disc;
+}
+
+.left {
+	border: solid 5px;
+    border-color: white;
+	margin: 0px 10px 0px 10px;
+	float: left;
 }
 
 .presentation dt {
@@ -169,6 +189,13 @@
 	margin-left: 2em;
 	list-style-type: lower-roman;
 	font-size: 1em;
+}
+
+.right {
+	border: solid 5px;
+    border-color: white;
+	margin: 0px 10px 0px 10px;
+	float: right;
 }
 
 a:link {
@@ -195,12 +222,32 @@ body {
 	background-color: #A2B5A0;
 }
 
+figure {
+   display: table;
+   text-align: justify;
+   width: 1px;
+}
+
+figure img {
+    display: block;
+}
+
 figcaption {
 	color: #597814;
 	font-style: italic;
 	font-family: monospace;
 	font-size: 1em;
 	margin: 0.2em 1em 1.2em 1em;
+	display: table-caption;
+    caption-side: bottom;
+}
+
+.right figcaption {
+	margin: 2px 10px 0px 2px;
+}
+
+.left figcaption {
+	margin: 2px 10px 0px 4px;
 }
 
 h1, h2, h3, h4, p, td, dd, dt, li, tr, legend {
