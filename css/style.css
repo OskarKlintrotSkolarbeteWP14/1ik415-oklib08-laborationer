@@ -250,7 +250,14 @@ figcaption {
 	margin: 2px 10px 0px 4px;
 }
 
-h1, h2, h3, h4, p, td, dd, dt, li, tr, legend {
+fieldset {
+	border: solid thin #375000;
+	padding-left: 0.8rem;
+	padding-bottom: 1rem;
+	width: 25rem;
+}
+
+h1, h2, h3, h4, p, td, dd, dt, li, tr, legend, label, textarea, input, select {
 	color: #375000;
 }
 
@@ -289,14 +296,21 @@ h3.article_headline {
     background-size: 50px;
 }
 
-
-
 h4 {
 	font-size: 1.4em;
 	margin-bottom: 0.3em;
 }
 
+legend {
+	margin: 0.5rem;
+	padding: 0.2rem;
+}
 
+label, textarea, input, select {
+	font-family: verdana, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.7em;
+}
 
 p, td, dd, dt, li, tr, legend {
 	font-family: verdana, sans-serif;
