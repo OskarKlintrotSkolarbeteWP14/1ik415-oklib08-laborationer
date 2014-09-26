@@ -24,17 +24,19 @@
                 <h2>Kontakta mig</h2>
                 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
                 <fieldset>
-                 <legend>Fråga</legend>
-                 <p>Ärendetyp:
-                     <select name="Arendetyp" size="1">
+                 <legend>Fråga eller tips?</legend>
+                 <label for="Arendetyp">Ärendetyp:</label>
+                     <select name="Arendetyp" size="1" id="Arendetyp">
                          <option value="Fraga">Fråga</option>
                          <option>Tips</option>
                      </select>
-                     <br />
-                     Rubrik: <input type="text" name="Rubrik"/>
-                     <p>Vad vill du? 
-                     <br />
-                     <textarea name="Text" rows="3" cols="30" placeholder="Skriv din fråga eller tips här"></textarea>
+                <br />
+                <label for="Rubrik">Rubrik:</label>
+                    <input type="text" name="Rubrik" id="Rubrik"/>
+                <br />
+                <label for="Text"><p>Vad vill du?</label>
+                <br />
+                     <textarea name="Text" id="Text" rows="3" cols="30" placeholder="Skriv din fråga eller tips här"></textarea>
                 </fieldset>
                 <fieldset>
                  <legend>Information om dig</legend>
