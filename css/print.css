@@ -21,7 +21,7 @@ h1, h2, h3, h4, p, label, fieldset, legend, a:link, label, textarea, input, sele
     text-align:left;
 }
 
-a:link:after { 
+a:link:after, a:visited:after { 
     content:" (" attr(href) ") "; 
 }
 
@@ -34,4 +34,8 @@ h3.article_headline {
 	padding-top: 18px;
 	margin: 5px;
     background-image: none;
+}
+
+table {
+    margin-left: 40px;
 }
