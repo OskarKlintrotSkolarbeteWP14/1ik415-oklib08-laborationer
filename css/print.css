@@ -1,0 +1,37 @@
+#content {
+	padding: 3px;
+	width: 85%;
+	margin-left: 0px;
+	min-height: 500px;
+}
+
+#header {
+    border: none;
+}
+
+#navigation {
+    display: none;
+}
+
+h1, h2, h3, h4, p, label, fieldset, legend, a:link, label, textarea, input, select, td, dd, dt, li, tr, figcaption, #header p, p.article_end {
+    color: black;
+    font-family: "Times new roman", serif;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    text-align:left;
+}
+
+a:link:after { 
+    content:" (" attr(href) ") "; 
+}
+
+h3.article_headline {
+	border-bottom: 1px solid;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	vertical-align: bottom;
+	width: 100%;
+	padding-top: 18px;
+	margin: 5px;
+    background-image: none;
+}
