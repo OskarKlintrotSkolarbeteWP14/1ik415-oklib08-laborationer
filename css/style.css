@@ -93,7 +93,7 @@
 
 #navigation a {
 	display: block;
-	padding: 13px 12px;
+	padding: 13px 45px;
 	color: #597814;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -105,15 +105,12 @@
 	border-top-right-radius: 7px;
 	border-bottom-right-radius: 7px;
 	padding-left: 45px;
-	background-image: url(pics/arrow.svg);
-	background-repeat: no-repeat;
+/*	background-image: url(pics/arrow.svg);
+	background-repeat: no-repeat; */
 }
 
-#navigation .active {
+#navigation .active a.active {
 	background-color: #597814;
-}
-
-#navigation a.active {
 	color: #D6EF9F;
 }
 
@@ -122,9 +119,46 @@
 	background-color: #597814;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
-	padding: 13px 12px;
-	background-image: none;
+	padding: 13px 45px;
+/*	background-image: none; */
+} 
+
+#navigation li a {
+	background: url("/css/pics/sprite.png") 24px 24px no-repeat;
+	
 }
+
+#navigation li a.start:link {
+	background-position: 0px 0px;
+}
+
+#navigation li a.start:hover {
+	background-position: 0px -48px;
+}
+
+#navigation li a.laborationer:link {
+	background-position: 0px -96px;
+}
+
+#navigation li a.laborationer:hover {
+	background-position: 0px -144px;
+} 
+
+#navigation li a.presentation:link {
+	background-position: 0px -192px;
+}
+
+#navigation li a.presentation:hover {
+	background-position: 0px -240px;
+} 
+
+#navigation li a.kontakt:link {
+	background-position: 0px -288px;
+}
+
+#navigation li a.kontakt:hover {
+	background-position: 0px -336px;
+} 
 
 .article {
 	background-color: #A8C764;
@@ -359,3 +393,4 @@ tr {
 tr:hover td:not(.avoid) {
 	background-color: white;
 }
+
