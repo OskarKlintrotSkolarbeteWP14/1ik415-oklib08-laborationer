@@ -129,35 +129,35 @@
 }
 
 #navigation li a.start:link {
-	background-position: 0px 0px;
+	background-position: 10px 10px;
 }
 
 #navigation li a.start:hover {
-	background-position: 0px -48px;
+	background-position: 10px -38px;
 }
 
 #navigation li a.laborationer:link {
-	background-position: 0px -96px;
+	background-position: 10px -86px;
 }
 
 #navigation li a.laborationer:hover {
-	background-position: 0px -144px;
+	background-position: 10px -134px;
 } 
 
 #navigation li a.presentation:link {
-	background-position: 0px -192px;
+	background-position: 10px -182px;
 }
 
 #navigation li a.presentation:hover {
-	background-position: 0px -240px;
+	background-position: 10px -230px;
 } 
 
 #navigation li a.kontakt:link {
-	background-position: 0px -288px;
+	background-position: 10px -278px;
 }
 
 #navigation li a.kontakt:hover {
-	background-position: 0px -336px;
+	background-position: 10px -326px;
 } 
 
 .article {
