@@ -166,26 +166,26 @@ p.article_end {
 }
 
 .presentation dt {
-	font-size: 1.05em;
+	font-size: 1.1rem;
 }
 
 .presentation dd {
-	margin-left: 3em;
-	margin-bottom: 1em;
+	margin-left: 3rem;
+	margin-bottom: 1rem;
 	width: 75%;
-	line-height: 2em;
+	line-height: 1.5rem;
 	text-align: justify;
 }
 
 .presentation dd ul li {
 	list-style-type: circle;
-	font-size: 1em;
+	font-size: 0.9rem;
 }
 
 .presentation dd ol li {
 	margin-left: 2em;
 	list-style-type: lower-roman;
-	font-size: 1em;
+	font-size: 0.9rem;
 }
 
 .right {
