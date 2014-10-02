@@ -271,6 +271,10 @@ h2 {
 	width: 99%;
 }
 
+h2.contact {
+    border: none;
+}
+
 h3 {
 	font-size: 1.1rem;
 	margin-bottom: 0.3rem;
@@ -295,7 +299,7 @@ legend {
 
 label, textarea, input, select {
 	font-family: "Times new roman", serif;
-	font-size: 0.8em;
+	font-size: 0.9rem;
 	line-height: 1.7em;
 }
 
