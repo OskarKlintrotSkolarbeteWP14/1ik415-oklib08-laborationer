@@ -1,3 +1,144 @@
 img, video { 
     max-width: 96%; 
 }
+
+#container {
+	background-color: #A8C764;
+	border: groove #A8C764;
+}
+
+#content {
+	padding: 3px;
+
+	border: solid thick;
+}
+
+#footer {
+	background-color: #D6EF9F;
+	padding: 10px;
+	margin: 10px;
+
+    border: solid thick;
+}
+
+#footer p {
+	margin: 0px;
+	
+	border: solid thick;
+}
+
+#header {
+	background-color: #75A311;
+	border-bottom: thin solid #375000;
+	padding: 10px;
+	
+	border: solid thick;
+}
+
+#header p {
+	font-size: 1.3em;
+	font-family: monospace, sans-serif;
+	text-align: right;
+	
+	border: solid thick;
+}
+
+#navigation {
+	margin: 7px 0px 0px 5px;
+	padding: 0px;
+	
+	border: solid thick;
+}
+
+/*
+#navigation li {
+	list-style: none;
+	margin: 2px 0px 2px 0px;
+	background-color: #D6EF9F;
+	height: 40px;
+	width: 96%;
+	line-height: 1em;
+}
+
+#navigation li:hover {
+	background-color: #A8C764;
+	width: 100%;
+	line-height: 1em;
+}
+
+#navigation li.active:hover {
+	width: 96%;
+}
+
+#navigation a {
+	display: block;
+	padding: 13px 45px;
+	color: #597814;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navigation a:hover {
+	background-color: #375000;
+	color: #D6EF9F;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	padding-left: 45px;
+}
+
+#navigation .active a.active {
+	background-color: #597814;
+	color: #D6EF9F;
+}
+
+#navigation a.active:hover {
+	color: #D6EF9F;
+	background-color: #597814;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding: 13px 45px;
+} 
+
+#navigation li a {
+	background: url("/css/pics/sprite.png") 24px 24px no-repeat;
+}
+
+#navigation li a.start:link {
+	background-position: 10px 10px;
+}
+
+#navigation li a.start:hover {
+	background-position: 10px -38px;
+}
+
+#navigation li a.laborationer:link {
+	background-position: 10px -86px;
+}
+
+#navigation li a.laborationer:hover {
+	background-position: 10px -134px;
+} 
+
+#navigation li a.presentation:link {
+	background-position: 10px -182px;
+}
+
+#navigation li a.presentation:hover {
+	background-position: 10px -230px;
+} 
+
+#navigation li a.kontakt:link {
+	background-position: 10px -278px;
+}
+
+#navigation li a.kontakt:hover {
+	background-position: 10px -326px;
+} 
+
+*/
+
+.article {
+	background-color: #A8C764;
+	margin: 10px;
+	box-shadow: 0px 0px 25px -5px #375000;
+}
