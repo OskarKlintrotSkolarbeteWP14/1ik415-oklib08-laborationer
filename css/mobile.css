@@ -20,7 +20,7 @@ img, video {
 #footer p {
 	margin: 0px;
 	font-family: verdana, sans-serif;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 }
 
 #header {
@@ -37,8 +37,7 @@ img, video {
 }
 
 #navigation {
-	margin: auto;
-	padding: 10px;
+	padding: 10px 0 10px 0;
 }
 
 #navigation ul {
@@ -123,7 +122,7 @@ img, video {
 
 .article {
 	background-color: #A8C764;
-	margin: 10px;
+	
 	box-shadow: 0px 0px 25px -5px #375000;
 }
 
