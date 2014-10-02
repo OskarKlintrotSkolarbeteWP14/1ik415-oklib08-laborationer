@@ -313,6 +313,8 @@ p {
 
 table {
 	background-color: #D6EF9F;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 td {
