@@ -170,7 +170,7 @@ p.article_end {
 }
 
 .presentation dd {
-	margin-left: 3rem;
+	margin-left: 2rem;
 	margin-bottom: 1rem;
 	width: 75%;
 	line-height: 1.5rem;
@@ -183,7 +183,7 @@ p.article_end {
 }
 
 .presentation dd ol li {
-	margin-left: 2rem;
+	margin-left: 3rem;
 	list-style-type: lower-roman;
 	font-size: 0.9rem;
 }
