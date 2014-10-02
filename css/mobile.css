@@ -221,29 +221,21 @@ body {
 figure {
    display: table;
    text-align: justify;
-   width: 1px;
+   width: 80px;
 }
 
 figure img {
     display: block;
+    max-width: 100%;
 }
 
 figcaption {
 	color: #597814;
 	font-style: italic;
 	font-family: monospace;
-	font-size: 1.2em;
-	margin: 0.2em 1em 1.2em 1em;
+	font-size: 0.9em;
 	display: table-caption;
     caption-side: bottom;
-}
-
-.right figcaption {
-	margin: 2px 10px 0px 2px;
-}
-
-.left figcaption {
-	margin: 2px 10px 0px 4px;
 }
 
 fieldset {
@@ -309,7 +301,7 @@ label, textarea, input, select {
 
 p, td, dd, dt, li, tr, legend {
 	font-family: "Times new roman", serif;
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	line-height: 1.5rem;
 }
 
