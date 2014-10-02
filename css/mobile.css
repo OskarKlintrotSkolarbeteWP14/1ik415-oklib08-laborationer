@@ -46,28 +46,24 @@ img, video {
 #navigation {
 	margin: 7px 0px 0px 5px;
 	padding: 0px;
-	
-	border: solid thick;
 }
 
-/*
+#navigation ul {
+    box-shadow: 0px 0px 25px 2px #375000;
+}
+
 #navigation li {
 	list-style: none;
 	margin: 2px 0px 2px 0px;
 	background-color: #D6EF9F;
 	height: 40px;
-	width: 96%;
+	width: 98%;
 	line-height: 1em;
 }
 
 #navigation li:hover {
-	background-color: #A8C764;
-	width: 100%;
+	background-color: #375000;
 	line-height: 1em;
-}
-
-#navigation li.active:hover {
-	width: 96%;
 }
 
 #navigation a {
@@ -79,11 +75,7 @@ img, video {
 }
 
 #navigation a:hover {
-	background-color: #375000;
 	color: #D6EF9F;
-	border-top-right-radius: 7px;
-	border-bottom-right-radius: 7px;
-	padding-left: 45px;
 }
 
 #navigation .active a.active {
@@ -134,8 +126,6 @@ img, video {
 #navigation li a.kontakt:hover {
 	background-position: 10px -326px;
 } 
-
-*/
 
 .article {
 	background-color: #A8C764;
