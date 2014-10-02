@@ -51,12 +51,12 @@ img, video {
 	margin: 2px 0px 2px 0px;
 	background-color: #D6EF9F;
 	height: 40px;
-	line-height: 1em;
+	line-height: 1rem;
 }
 
 #navigation li:hover {
 	background-color: #375000;
-	line-height: 1em;
+	line-height: 1rem;
 }
 
 #navigation a {
@@ -147,11 +147,11 @@ p.article_end {
 }
 
 .labb {
-	margin-left: 2em;
+	margin-left: 2rem;
 }
 
 .labb dd {
-	margin-bottom: 1.2em;
+	margin-bottom: 1.2rem;
 }
 
 .labb li {
@@ -183,7 +183,7 @@ p.article_end {
 }
 
 .presentation dd ol li {
-	margin-left: 2em;
+	margin-left: 2rem;
 	list-style-type: lower-roman;
 	font-size: 0.9rem;
 }
@@ -234,7 +234,7 @@ figcaption {
 	color: #597814;
 	font-style: italic;
 	font-family: monospace;
-	font-size: 0.9em;
+	font-size: 0.9rem;
 	display: table-caption;
     caption-side: bottom;
 }
@@ -254,8 +254,8 @@ h1, h2, h3, h4, p, td, dd, dt, li, tr, legend, label, textarea, input, select {
 
 h1, h2, h3, h4 {
 	font-family: "Lucida Console", monospace;
-	line-height: 1.2em;
-	margin-top: 0.3em;
+	line-height: 1.2rem;
+	margin-top: 0.3rem;
 }
 
 h1 {
@@ -300,7 +300,7 @@ legend {
 label, textarea, input, select {
 	font-family: "Times new roman", serif;
 	font-size: 0.9rem;
-	line-height: 1.7em;
+	line-height: 1.7rem;
 }
 
 p, td, dd, dt, li, tr, legend {
@@ -310,7 +310,7 @@ p, td, dd, dt, li, tr, legend {
 }
 
 p {
-	margin-bottom: 0.8em;
+	margin-bottom: 0.8rem;
 }
 
 table {
