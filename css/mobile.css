@@ -7,7 +7,7 @@ img, video {
 	border: groove #A8C764;
 }
 
-#content {
+#mobile {
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -222,7 +222,7 @@ body {
 figure {
    display: table;
    text-align: justify;
-   width: 80px;
+
 }
 
 figure img {
