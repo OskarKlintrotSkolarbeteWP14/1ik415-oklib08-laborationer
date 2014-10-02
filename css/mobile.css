@@ -265,13 +265,13 @@ h1 {
 }
 
 h2 {
-	font-size: 1.9em;
-	margin-bottom: 0.3em;
+	font-size: 1.4rem;
+	margin-bottom: 0.3rem;
 }
 
 h3 {
-	font-size: 1.8em;
-	margin-bottom: 0.3em;
+	font-size: 1.1rem;
+	margin-bottom: 0.3rem;
 }
 
 h3.article_headline {
@@ -284,11 +284,6 @@ h3.article_headline {
     background-image: url('pics/logo.png');
     background-repeat: no-repeat;
     background-size: 50px;
-}
-
-h4 {
-	font-size: 1.4em;
-	margin-bottom: 0.3em;
 }
 
 legend {
