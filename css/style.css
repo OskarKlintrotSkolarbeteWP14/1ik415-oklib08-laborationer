@@ -27,10 +27,18 @@
 	
 */
 
+img, video { 
+    max-width: 100%; 
+}
+
+.mobileimgvideo {
+	max-width: 90%;
+}
+
 #container {
 	background-color: #A8C764;
 	border: groove #A8C764;
-	min-width: 960px;
+
 	max-width: 1000px;
  	margin-left: auto ;
   	margin-right: auto ;
@@ -38,7 +46,7 @@
 
 #content {
 	padding: 3px;
-	width: 800;
+	max-width: 800;
 	margin-left: 225px;
 	min-height: 500px;
 }
@@ -168,12 +176,12 @@
 
 .article p {
 	padding-left: 10px;
+	padding-right: 15px;
 	text-align: justify;
-	width: 97%;
 }
 
 p.article_end {
-	width: 97%;
+	padding-right: 15px;
 	text-align: right;
 	font-style: italic;
 }
@@ -259,11 +267,12 @@ body {
 figure {
    display: table;
    text-align: justify;
-   width: 1px;
+   max-width: 100%x;
 }
 
 figure img {
     display: block;
+    max-width: 100%;
 }
 
 figcaption {
@@ -288,7 +297,9 @@ fieldset {
 	border: solid thin #375000;
 	padding-left: 0.8rem;
 	padding-bottom: 1rem;
-	width: 25rem;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1, h2, h3, h4, p, td, dd, dt, li, tr, legend, label, textarea, input, select {
@@ -325,7 +336,6 @@ h3.article_headline {
 	padding-bottom: 3px;
 	padding-left: 50px;
 	vertical-align: bottom;
-	width: 91%;
 	padding-top: 18px;
 	margin: 5px;
     background-image: url('pics/logo.png');
