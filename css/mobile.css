@@ -87,7 +87,7 @@ img, video {
 } 
 
 #navigation li a {
-	background: url("/css/pics/sprite.png") 24px 24px no-repeat;
+	background: url("pics/sprite.png") 24px 24px no-repeat;
 }
 
 #navigation li a.start:link {
