@@ -248,7 +248,7 @@ fieldset {
 	margin-right: auto;
 }
 
-h1, h2, h3, h4, p, td, dd, dt, li, tr, legend, label, textarea, input, select {
+h1, h2, h3, h4, p, td, dd, dt, li, tr, legend, label, textarea, input, select, .title, .fn, .adr, .street-address, .locality, .country-name {
 	color: #375000;
 }
 
@@ -303,7 +303,7 @@ label, textarea, input, select {
 	line-height: 1.7rem;
 }
 
-p, td, dd, dt, li, tr, legend {
+p, td, dd, dt, li, tr, legend, .title, .fn, .adr, .street-address, .locality, .country-name {
 	font-family: "Times new roman", serif;
 	font-size: 0.9rem;
 	line-height: 1.5rem;
