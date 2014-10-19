@@ -34,23 +34,23 @@
     </head>
     <body>
         <div id="container">
-            <div id="header">
+            <header>
                 <h1>Oskars blogg för webbteknisk introduktion</h1>
                 <p>Välkommen till min blogg!</p>
-            </div>
-            <div id="navigation">
+            </header>
+            <nav>
                 <ul>
                     <li class="active"><a href="index.html" class="active start">Start</a></li>
                     <li class ="laborationer"><a href="pages/laborationer.html" class ="laborationer">Laborationer</a></li>
                     <li><a href="pages/presentation.html" class="presentation">Presentation</a></li>
                     <li><a href="pages/kontakt.html" class="kontakt">Kontakt</a></li>
                 </ul>
-            </div>
+            </nav>
             <div id="content">
+            <div class="blog">
             <!-- 6:e blogginlägget -->
-                <div class="article">
+                <article>
                     <h3 class="article_headline">Uppgift 4</h3>
-
                     <a href="pics/mobile_screenshot.png">
                         <figure class="right">
                             <img width="180px" src="pics/mobile_screenshot.png" />
@@ -61,9 +61,9 @@
                     <p>Bland det första som jag gjorde var att göra om layouten. I en mobil syns menyn överst istället för till vänster i bilden. Nästa stora grej som jag gjorde var att byta typsnittet till ett serif-baserat för att göra det lättare att läsa texten på sidan. I övrigt var det mest småsaker som marginaler, linjer under rurbrikerna för att göra dem tydligare och liknande. Formuläret var redan anpassat för mobila enheter så där fanns knappt något att göra. Tabellerna fick plats även i en litet iphone men jag gjorde ändå så att man kan skrolla i sidleds i dem. Det funkar i Chrome på desktop i alla fall, men tyvärr inte i min S5...</p>
                     <p>En liten sak som blev mycket kod och många filer var favicon och apple-touch-icon. För att slippa fixa iordning alla filerna var för sig gjorde jag en förlaga i Photoshop som jag sen använde i <a href="http://realfavicongenerator.net/">Real Favicon Generator</a>. Det ser nu bra ut i Windows 7 och Android när man sparar sidan som en app. OS X har jag på min server men jag är lat... iOS håller jag mig långt ifrån, känns lite väl ambitiöst att installera en emulator bara för kunna testa sidan i iOS. Windows 8 hade jag i en virtuell maskin men tydligen kan även virtuella windowsmaskiner krasha, who knew!</p>
                     <p class="article_end">Skriver av Oskar 2014-09-28</p>
-                </div>
+                </article>
             <!-- 5:e blogginlägget -->
-                <div class="article">
+                <article>
                     <h3 class="article_headline">Uppgift 3.3</h3>
                     <a href="https://raw.githubusercontent.com/OskarKlintrot/Uppgift-3-3/master/IE7_hela.png">
                         <figure class="left">
@@ -75,9 +75,9 @@
                     <p>Till menyn lyckades jag inte lösa på ett smidigt sätt att få den i botten av div-taggen. Istället har jag använt mig av marginaler och annat bös.</p>
                     <p>Lösningen kan du se <a href="https://uppgift-3-3-c9-oskarklintrot.c9.io/">här</a>.</p>
                     <p class="article_end">Skriver av Oskar 2014-09-28</p>
-                </div>
+                </article>
             <!-- 4:e blogginlägget -->
-                <div class="article">
+                <article>
                     <h3 class="article_headline">Lorem Ipsum</h3>
                     <figure class="right">
                         <img src="pics/kalmarslott.jpg" alt="Bild på Kalmarslott" />
@@ -87,9 +87,9 @@
                     <p>Mauris maximus nisi quis est viverra, consectetur efficitur mi pretium. Pellentesque vehicula pulvinar varius. Vivamus venenatis, libero in varius commodo, nibh magna malesuada nunc, non convallis leo metus nec libero. Vivamus eu nisi a libero elementum condimentum. Ut ac tincidunt mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et vehicula metus.</p>
                     <p>Vestibulum molestie euismod orci, nec viverra nisl consectetur nec. Etiam placerat vehicula tempor. Nulla ut auctor tellus. Proin placerat mi purus, sit amet eleifend lorem euismod at. Ut interdum lectus vel est rhoncus imperdiet. Aliquam massa augue, rhoncus quis mauris quis, dapibus finibus eros. Proin aliquam, massa non ornare sollicitudin, velit mi mattis orci, sit amet interdum magna tortor sit amet risus. Vivamus nibh enim, molestie id nisl laoreet, porta laoreet tellus. Mauris in dictum nulla. Mauris ultrices viverra quam, id ornare velit pellentesque id.</p>
                     <p class="article_end">Skriver av Oskar 2014-09-23</p>
-                </div>
+                </article>
             <!-- 3:e blogginlägget -->
-                <div class="article">
+                <article>
                     <h3 id="1.7" class="article_headline">Big Buck Bunny</h3>
                     <p>
                      <video controls poster="pics/bbb_preview.jpg" width="700" preload="none" class="border mobileimgvideo">
@@ -99,23 +99,24 @@
                      </video>
                     <p>En trailer till kortfilmen <a href="http://www.bigbuckbunny.org/">Big Buck Bunny</a>
                     <p class="article_end">Skrivet av Oskar 2014-09-09
-                </div>
+                </article>
             <!-- 2:a blogginlägget -->
-                <div class="article">
+                <article>
                     <h3 id="1.6" class="article_headline">Kalmar Klätterklubb is the shit!</h3>
                     <img src="pics/kalmarkk.svg" alt="Gammalt förslag för logga till Kalmar KK" width="700" />
                     <p>Ett förslag till en logga till Kalmar Klätterklubb.</p>
                     <p class="article_end">Skrivet av Oskar 2014-09-09</p>
-                </div>
+                </article>
             <!-- 1:a blogginlägget -->
-                <div class="article">
+                <article>
                     <h3 class="article_headline">Hello world!</h3>
                     <p>Den här bloggen kommer att handla om de laborationer jag gör i kursen webbteknisk introduktion.</p>
                     <p class="article_end">Skrivet av Oskar 2014-09-07</p>
-                </div>
+                </article>
             </div>
-            <div id="footer">
+            <footer>
                 <p>Ansvarig för publicerat material är ingen.</p>
+            </footer>
             </div>
         </div>
     </body>

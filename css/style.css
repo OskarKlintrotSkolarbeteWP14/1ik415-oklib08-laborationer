@@ -50,36 +50,36 @@ img, video {
 	min-height: 500px;
 }
 
-#footer {
+footer {
 	background-color: #D6EF9F;
 	padding: 10px;
 	margin: 10px;
 }
 
-#footer p {
+footer p {
 	margin: 0px;
 }
 
-#header {
+header {
 	background-color: #75A311;
 	border-bottom: thin solid #375000;
 	padding: 10px;
 }
 
-#header p {
+header p {
 	font-size: 1.3em;
 	font-family: monospace, sans-serif;
 	text-align: right;
 }
 
-#navigation {
+nav {
 	width: 200px;
 	float: left;
 	margin: 7px 0px 0px 5px;
 	padding: 0px;
 }
 
-#navigation li {
+nav li {
 	list-style: none;
 	margin: 2px 0px 2px 0px;
 	background-color: #D6EF9F;
@@ -88,17 +88,17 @@ img, video {
 	line-height: 1em;
 }
 
-#navigation li:hover {
+nav li:hover {
 	background-color: #A8C764;
 	width: 100%;
 	line-height: 1em;
 }
 
-#navigation li.active:hover {
+nav li.active:hover {
 	width: 96%;
 }
 
-#navigation a {
+nav a {
 	display: block;
 	padding: 13px 45px;
 	color: #597814;
@@ -106,7 +106,7 @@ img, video {
 	text-transform: uppercase;
 }
 
-#navigation a:hover {
+nav a:hover {
 	background-color: #375000;
 	color: #D6EF9F;
 	border-top-right-radius: 7px;
@@ -116,12 +116,12 @@ img, video {
 	background-repeat: no-repeat; */
 }
 
-#navigation .active a.active {
+nav .active a.active {
 	background-color: #597814;
 	color: #D6EF9F;
 }
 
-#navigation a.active:hover {
+nav a.active:hover {
 	color: #D6EF9F;
 	background-color: #597814;
 	border-top-right-radius: 0px;
@@ -130,50 +130,50 @@ img, video {
 /*	background-image: none; */
 } 
 
-#navigation li a {
+nav li a {
 	background: url("pics/sprite.png") 24px 24px no-repeat;
 	
 }
 
-#navigation li a.start:link {
+nav li a.start:link {
 	background-position: 10px 10px;
 }
 
-#navigation li a.start:hover {
+nav li a.start:hover {
 	background-position: 10px -38px;
 }
 
-#navigation li a.laborationer:link {
+nav li a.laborationer:link {
 	background-position: 10px -86px;
 }
 
-#navigation li a.laborationer:hover {
+nav li a.laborationer:hover {
 	background-position: 10px -134px;
 } 
 
-#navigation li a.presentation:link {
+nav li a.presentation:link {
 	background-position: 10px -182px;
 }
 
-#navigation li a.presentation:hover {
+nav li a.presentation:hover {
 	background-position: 10px -230px;
 } 
 
-#navigation li a.kontakt:link {
+nav li a.kontakt:link {
 	background-position: 10px -278px;
 }
 
-#navigation li a.kontakt:hover {
+nav li a.kontakt:hover {
 	background-position: 10px -326px;
 } 
 
-.article {
+.blog article {
 	background-color: #A8C764;
 	margin: 10px;
 	box-shadow: 0px 0px 25px -5px #375000;
 }
 
-.article p {
+.blog article p {
 	padding-left: 10px;
 	padding-right: 15px;
 	text-align: justify;

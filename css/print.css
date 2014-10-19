@@ -5,15 +5,15 @@
 	min-height: 500px;
 }
 
-#header {
+header {
     border: none;
 }
 
-#navigation {
+nav {
     display: none;
 }
 
-h1, h2, h3, h4, p, label, fieldset, legend, a:link, label, textarea, input, select, td, dd, dt, li, tr, figcaption, #header p, p.article_end {
+h1, h2, h3, h4, p, label, fieldset, legend, a:link, label, textarea, input, select, td, dd, dt, li, tr, figcaption, header p, p.article_end {
     color: black;
     font-family: "Times new roman", serif;
     margin-left: 1rem;
