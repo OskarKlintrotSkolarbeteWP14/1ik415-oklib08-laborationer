@@ -168,6 +168,8 @@ a::after {
 	transform: rotate(8deg);
 	z-index: 0;
 	text-align: center;
+	
+	transition: all .15s linear;
 }
 
 .images a:nth-child(3n+0) {
