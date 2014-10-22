@@ -170,6 +170,7 @@ a::after {
 	-webkit-transition: all .15s linear;
 	-moz-transition: all .15s linear;
 	transition: all .15s linear;
+	box-shadow: 0 0 20px 0 #375000;
 }
 
 .images a:nth-child(3n+0) {
@@ -208,6 +209,7 @@ a::after {
 	position: relative;
 	z-index: 10;
 	font-size: 1rem;
+	box-shadow: 0 0 50px 0 #375000;
 }
 
 .images a:focus {
@@ -220,4 +222,5 @@ a::after {
 	position: relative;
 	z-index: 10;
 	font-size: 1rem;
+	box-shadow: 0 0 50px 0 #375000;
 }
