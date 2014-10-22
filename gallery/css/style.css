@@ -167,8 +167,8 @@ a::after {
 	-moz-transform: rotate(8deg);
 	transform: rotate(8deg);
 	z-index: 0;
-	text-align: center;
-	
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
 	transition: all .15s linear;
 }
 
@@ -199,6 +199,18 @@ a::after {
 }
 
 .images a:hover {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	transform: scale(1.5);
+	position: relative;
+	z-index: 10;
+	font-size: 1rem;
+}
+
+.images a:focus {
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
 	transform: rotate(0deg);
