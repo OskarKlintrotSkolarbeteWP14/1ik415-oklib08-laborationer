@@ -37,10 +37,11 @@
 
 #content {
 	padding: 3px;
-	max-width: 900px;
+	max-width: 800px;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	min-height: 500px;
+	min-height: 600px;
 }
 
 footer {
@@ -150,33 +151,41 @@ a::after {
 
 .images img {
 	display: block; 
-	
+	width: 120px;
 }
 
 .images a {
+	width: 120px;
 	display: inline;
 	background: white;
-	margin: 0 15px 30px;
+	margin: 0 5px 10px;
 	padding: 10px 10px 25px;
 	text-align: center;
 	text-decoration: none;
 	float: left;
-	-webkit-transform: rotate(5deg);
-	-moz-transform: rotate(5deg);
-	transform: rotate(5deg);
+	-webkit-transform: rotate(8deg);
+	-moz-transform: rotate(8deg);
+	transform: rotate(8deg);
 	z-index: 0;
+	text-align: center;
 }
 
 .images a:nth-child(3n+0) {
-	-webkit-transform: rotate(-2deg);
-	-moz-transform: rotate(-2deg);
-	transform: rotate(-2deg);
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.images a:nth-child(4n+0) {
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	transform: rotate(3deg);
 }
 
 .images a:nth-child(5n+0) {
-	-webkit-transform: rotate(7deg);
-	-moz-transform: rotate(7deg);
-	transform: rotate(7deg);
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
 }
 
 .images a:hover {
