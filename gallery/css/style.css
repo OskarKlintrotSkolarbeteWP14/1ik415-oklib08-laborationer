@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
 /*
 	Background header: #75A311
 	Background main: #A2B5A0
@@ -81,18 +83,6 @@ a:visited {
 	color: #75A311;
 }
 
-a:focus {
-	color: #D6EF9F;
-}
-
-a:hover {
-	color: #D6EF9F;
-}
-
-a:active {
-	color: #D6EF9F;
-}
-
 body {
 	background-color: #A2B5A0;
 }
@@ -131,11 +121,6 @@ h4 {
 	margin-bottom: 0.3em;
 }
 
-legend {
-	margin: 0.5rem;
-	padding: 0.2rem;
-}
-
 p {
 	font-family: verdana, sans-serif;
 	font-size: 0.9em;
@@ -146,7 +131,7 @@ p {
 a::after {
 	content: attr(title);
 	position: relative;
-	top:15px;
+	top: 15px;
 }
 
 .images img {
@@ -171,6 +156,7 @@ a::after {
 	-moz-transition: all .15s linear;
 	transition: all .15s linear;
 	box-shadow: 0 0 20px 0 #375000;
+	font-family: 'Indie Flower'/*, cursive*/;
 }
 
 .images a:nth-child(3n+0) {
@@ -192,11 +178,11 @@ a::after {
 }
 
 .images a:nth-child(2n+0) {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 }
 
 .images a:nth-child(6n+0) {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 
 .images a:hover {
@@ -224,3 +210,4 @@ a::after {
 	font-size: 1rem;
 	box-shadow: 0 0 50px 0 #375000;
 }
+
